@@ -1,1 +1,5 @@
 # KatzDevTask
+This repo represents a Technical task presented by Katzion. For the solution of this task I researched on different solution which includes Actual rest callouts and platform events which requires pub-sub model for integration. But within these two I chose a path of the actual Rest Callouts because the requirement second is based on the succesful response of the first rest callout and in case of platform events to get succesful response of the request completion is not controlled as it can be subscribed by muultiple systems and find the exact one is highly complex so I chose a first one.
+For your convinince I have created one salesforce App inside org which displys Transaction, Transaction Item and Error log object tabs for better accessability.
+![image](https://user-images.githubusercontent.com/81262134/160920813-2470e84e-35da-4abb-83d9-9504d18ab6a2.png)
+You can test your results within org by creating transaction records and its repective related Transaction item records, but as we dont have exact endpoints result of above transaction ends up with creating a record inside Error log object.
